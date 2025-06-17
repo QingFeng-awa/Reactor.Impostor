@@ -21,12 +21,12 @@ jobs:
         with:
           verbosity: Diagnostic
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: Reactor.Impostor.dll
           path: Reactor.Impostor/bin/Release/net8.0/Reactor.Impostor.dll
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: Reactor.Impostor.nupkg
           path: Reactor.Impostor/bin/Release/Reactor.Impostor.*.nupkg
